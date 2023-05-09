@@ -83,56 +83,6 @@ namespace BikeLah_Setel.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap bike__1_ {
-            get {
-                object obj = ResourceManager.GetObject("bike (1)", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap bike__1_1 {
-            get {
-                object obj = ResourceManager.GetObject("bike (1)1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap bike__2_ {
-            get {
-                object obj = ResourceManager.GetObject("bike (2)", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap electric_scooter {
-            get {
-                object obj = ResourceManager.GetObject("electric-scooter", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap electric_scooter__1_ {
-            get {
-                object obj = ResourceManager.GetObject("electric-scooter (1)", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap exit__1_ {
             get {
                 object obj = ResourceManager.GetObject("exit (1)", resourceCulture);
@@ -206,16 +156,6 @@ namespace BikeLah_Setel.Properties {
         internal static System.Drawing.Bitmap image__2_1 {
             get {
                 object obj = ResourceManager.GetObject("image (2)1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap micro_scooter {
-            get {
-                object obj = ResourceManager.GetObject("micro-scooter", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

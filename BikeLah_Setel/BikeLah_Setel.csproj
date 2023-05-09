@@ -46,25 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="PageHistory.cs">
+    <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="PageHistory.Designer.cs">
-      <DependentUpon>PageHistory.cs</DependentUpon>
-    </Compile>
-    <Compile Include="PagePanduan.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="PagePanduan.Designer.cs">
-      <DependentUpon>PagePanduan.cs</DependentUpon>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="PageHistory.resx">
-      <DependentUpon>PageHistory.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="PagePanduan.resx">
-      <DependentUpon>PagePanduan.cs</DependentUpon>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -130,24 +121,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\bike.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bike %281%29.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bike %282%29.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\electric-scooter.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\electric-scooter %281%29.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bike %281%291.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\micro-scooter.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
